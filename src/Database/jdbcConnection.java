@@ -20,6 +20,8 @@ public class jdbcConnection {
 		{
 		System.out.println(rs.getString("location"));
 		System.out.println(rs.getInt("age"));
+		System.out.println(rs.getInt("id"));
+		System.out.println(rs.getString("name"));
 		}
 		// check notebook for selenium code
 		
